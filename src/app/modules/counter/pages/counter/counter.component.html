@@ -1,0 +1,16 @@
+<div class="container">
+    <section class="card">
+        <p>Contador atual: <strong>{{count$ | async}}</strong></p>
+    </section>
+
+    <section class="content-row">
+        <section class="row">
+            <button type="button" class="button" (click)="increment()">Adicionar</button>
+
+            <button type="button" class="button" (click)="decrement()">Remover</button>
+
+            <button type="button" class="button" (click)="reset()">Zerar</button>
+
+        </section>
+    </section>
+</div>
